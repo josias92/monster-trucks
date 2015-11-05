@@ -1,17 +1,55 @@
+/* Nav */
 
-
-
-/* Links */
-
-a {
-    text-decoration: none;
+nav {
+    font-family: 'Permanent Marker', cursive;
 }
-
-
-
 
 /* Typography */
 
 li {
     list-style: none;
+    display: inline-block;
+    padding: 32px;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    color: black;
+}
+
+body {
+    background: -webkit-linear-gradient(90deg, #FF4E50 10%, #F9D423 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FF4E50 10%, #F9D423 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FF4E50 10%, #F9D423 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FF4E50 10%, #F9D423 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FF4E50 10%, #F9D423 90%); /* W3C */
+    margin: 32px;
+    text-align: center;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+    position: inline-block;
+
+}
+
+/* base link & visited state */
+
+a:link, a:visited {
+  color: black;
+  display: block;
+
+
+  text-decoration: none;
+
+  
+  transition: all .25s;
+}
+
+/* hover state */
+a:hover {
+  color: yellow;
+  transition: all .25s;
 }
